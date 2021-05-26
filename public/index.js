@@ -6,7 +6,7 @@ const sounds = ["among us",
 
 sounds.forEach(sound => {
     const btns = document.createElement('button')
-    btns.classList.add('btn', 'btn-dark', 'me-3')
+    btns.classList.add('btn', 'btn-dark', 'me-3', 'mb-3')
     
     btns.innerHTML = sound;
 
