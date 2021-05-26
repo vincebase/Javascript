@@ -1,7 +1,8 @@
 const sounds = ["among us",
-"toast bread butter jam",
-"toast big iq", "up and down",
-"who's impostor"]
+                "toast big iq", 
+                "toast bread butter jam",
+                "up and down",
+                "who's impostor"]
 
 
 sounds.forEach(sound => {
@@ -11,9 +12,19 @@ sounds.forEach(sound => {
     btns.innerHTML = sound;
 
     btns.addEventListener('click', () => {
+        pauseMusic()
         document.getElementById(sound).play()
     })
 
 
     document.getElementById('buttons').appendChild(btns)
 })
+
+function pauseMusic(){
+    sounds.forEach(sound => {
+        const music = document.getElementById(sound)
+        
+        music.pause()
+        music.currentTime = 0;
+    });
+} 
