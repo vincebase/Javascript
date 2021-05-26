@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-box: 0;
+}
+
+.logo{
+    max-width: 10rem;
+}
+.container{
+   
+    height: 100vh;
+}
+#sound-board{
+    width: 100%;
+    background-color: #ebd9ab;
+}
+.border{
+    color: black;
+}
+.col{
+padding: 5rem 5rem;
+
+}

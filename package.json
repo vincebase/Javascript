@@ -1,0 +1,24 @@
+{
+  "name": "B5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mix",
+    "watch": "mix watch",
+    "debug": "http-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.19",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "~1.32.6",
+    "sass-loader": "^11.0.1"
+  }
+}
